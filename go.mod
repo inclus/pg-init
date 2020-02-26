@@ -3,7 +3,7 @@ module github.com/inclus/pg-init
 go 1.13
 
 require (
-	github.com/avast/retry-go v2.4.1+incompatible
+	github.com/avast/retry-go v2.6.0+incompatible
 	github.com/lib/pq v1.2.0
 	github.com/magiconair/properties v1.8.1 // indirect
 	github.com/pelletier/go-toml v1.5.0 // indirect
