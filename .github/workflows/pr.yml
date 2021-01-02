@@ -1,8 +1,11 @@
-name: Go
+name: Pull Requests
 on:
   push:
     branches:
       - '*'
+      - '*/*'
+      - '**'
+      - '!master'
 jobs:
 
   build:
