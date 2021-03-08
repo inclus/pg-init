@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/avast/retry-go v3.0.0+incompatible
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
-	github.com/lib/pq v1.9.0
+	github.com/lib/pq v1.10.0
 	github.com/magiconair/properties v1.8.4 // indirect
 	github.com/mitchellh/mapstructure v1.4.0 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect
