@@ -28,7 +28,7 @@ jobs:
     - name: Build
       run: go build -v .
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: docker.pkg.github.com/inclus/pg-init/app
         username: ${{ secrets.DOCKER_USERNAME }}
